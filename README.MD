@@ -1,7 +1,7 @@
 # Nugget — Setup & Usage
 
 Short overview
-- Frontend: React + Vite app in [frontend/](frontend/) (see [frontend/package.json](frontend/package.json)).
+- Frontend: React + Vite app in [frontend/](frontend/) 
 - Backend: FastAPI service in [backend/main.py](backend/main.py) that fetches RSS feeds, extracts article content with `newspaper3k`, caches in Redis, and generates titles/summaries via Groq Llama (see [`generate_title_and_summary`](backend/main.py) and [`redis_client`](backend/main.py)).
 
 Prerequisites
